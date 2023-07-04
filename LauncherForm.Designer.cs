@@ -169,7 +169,7 @@
             button18.TabIndex = 19;
             button18.Text = "python2";
             button18.UseVisualStyleBackColor = true;
-            button18.Click += button10_Click;
+            button18.Click += button18_Click;
             // 
             // button17
             // 
@@ -179,7 +179,7 @@
             button17.TabIndex = 18;
             button17.Text = "python2";
             button17.UseVisualStyleBackColor = true;
-            button17.Click += button11_Click;
+            button17.Click += button17_Click;
             // 
             // button16
             // 
@@ -189,7 +189,7 @@
             button16.TabIndex = 17;
             button16.Text = "python2";
             button16.UseVisualStyleBackColor = true;
-            button16.Click += button12_Click;
+            button16.Click += button16_Click;
             // 
             // button15
             // 
@@ -199,7 +199,7 @@
             button15.TabIndex = 16;
             button15.Text = "python2";
             button15.UseVisualStyleBackColor = true;
-            button15.Click += button13_Click;
+            button15.Click += button15_Click;
             // 
             // button14
             // 
@@ -219,7 +219,7 @@
             button13.TabIndex = 14;
             button13.Text = "보배드림";
             button13.UseVisualStyleBackColor = true;
-            button13.Click += button15_Click;
+            button13.Click += button13_Click;
             // 
             // button12
             // 
@@ -229,7 +229,7 @@
             button12.TabIndex = 13;
             button12.Text = "Opera";
             button12.UseVisualStyleBackColor = true;
-            button12.Click += button16_Click;
+            button12.Click += button12_Click;
             // 
             // button11
             // 
@@ -239,7 +239,7 @@
             button11.TabIndex = 12;
             button11.Text = "mInim";
             button11.UseVisualStyleBackColor = true;
-            button11.Click += button17_Click;
+            button11.Click += button11_Click;
             // 
             // button10
             // 
@@ -249,7 +249,7 @@
             button10.TabIndex = 11;
             button10.Text = "클리앙";
             button10.UseVisualStyleBackColor = true;
-            button10.Click += button18_Click;
+            button10.Click += button10_Click;
             // 
             // Tetris
             // 
@@ -270,7 +270,7 @@
             button27.TabIndex = 29;
             button27.Text = "python2";
             button27.UseVisualStyleBackColor = true;
-            button27.Click += button20_Click;
+            button27.Click += button27_Click;
             // 
             // button26
             // 
@@ -280,7 +280,7 @@
             button26.TabIndex = 28;
             button26.Text = "python2";
             button26.UseVisualStyleBackColor = true;
-            button26.Click += button21_Click;
+            button26.Click += button26_Click;
             // 
             // button25
             // 
@@ -290,7 +290,7 @@
             button25.TabIndex = 27;
             button25.Text = "python2";
             button25.UseVisualStyleBackColor = true;
-            button25.Click += button22_Click;
+            button25.Click += button25_Click;
             // 
             // button24
             // 
@@ -300,7 +300,7 @@
             button24.TabIndex = 26;
             button24.Text = "python2";
             button24.UseVisualStyleBackColor = true;
-            button24.Click += button23_Click;
+            button24.Click += button24_Click;
             // 
             // button23
             // 
@@ -310,7 +310,7 @@
             button23.TabIndex = 25;
             button23.Text = "python2";
             button23.UseVisualStyleBackColor = true;
-            button23.Click += button24_Click;
+            button23.Click += button23_Click;
             // 
             // button22
             // 
@@ -320,7 +320,7 @@
             button22.TabIndex = 24;
             button22.Text = "보배드림";
             button22.UseVisualStyleBackColor = true;
-            button22.Click += button25_Click;
+            button22.Click += button22_Click;
             // 
             // button21
             // 
@@ -330,7 +330,7 @@
             button21.TabIndex = 23;
             button21.Text = "Opera";
             button21.UseVisualStyleBackColor = true;
-            button21.Click += button26_Click;
+            button21.Click += button21_Click;
             // 
             // button20
             // 
@@ -340,7 +340,7 @@
             button20.TabIndex = 22;
             button20.Text = "mInim";
             button20.UseVisualStyleBackColor = true;
-            button20.Click += button27_Click;
+            button20.Click += button20_Click;
             // 
             // button19
             // 

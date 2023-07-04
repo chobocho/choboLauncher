@@ -38,24 +38,24 @@ namespace ChoboLauncher
             buttonTable["button7"] = button7;
             buttonTable["button8"] = button8;
             buttonTable["button9"] = button9;
-            buttonTable["button10"] = button18;
-            buttonTable["button11"] = button17;
-            buttonTable["button12"] = button16;
-            buttonTable["button13"] = button15;
+            buttonTable["button10"] = button10;
+            buttonTable["button11"] = button11;
+            buttonTable["button12"] = button12;
+            buttonTable["button13"] = button13;
             buttonTable["button14"] = button14;
-            buttonTable["button15"] = button13;
-            buttonTable["button16"] = button12;
-            buttonTable["button17"] = button11;
-            buttonTable["button18"] = button10;
+            buttonTable["button15"] = button15;
+            buttonTable["button16"] = button16;
+            buttonTable["button17"] = button17;
+            buttonTable["button18"] = button18;
             buttonTable["button19"] = button19;
-            buttonTable["button20"] = button27;
-            buttonTable["button21"] = button26;
-            buttonTable["button22"] = button25;
-            buttonTable["button23"] = button24;
-            buttonTable["button24"] = button23;
-            buttonTable["button25"] = button22;
-            buttonTable["button26"] = button21;
-            buttonTable["button27"] = button20;
+            buttonTable["button20"] = button20;
+            buttonTable["button21"] = button21;
+            buttonTable["button22"] = button22;
+            buttonTable["button23"] = button23;
+            buttonTable["button24"] = button24;
+            buttonTable["button25"] = button25;
+            buttonTable["button26"] = button26;
+            buttonTable["button27"] = button27;
         }
 
         public ChoboUtil ChoboUtil
