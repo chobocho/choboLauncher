@@ -4,137 +4,137 @@
         {
             "id": "button1",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button2",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button3",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button4",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button5",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button6",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button7",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button8",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button9",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button10",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button11",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button12",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button13",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button14",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button15",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button16",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button17",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button18",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button19",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button20",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button21",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button22",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button23",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button24",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button25",
             "name": ".",
-            "target": ".."
+            "target": "."
         },
         {
             "id": "button26",
-            "name": ".",
-            "target": ".."
+            "name": "?",
+            "target": "."
         },
         {
             "id": "button27",
-            "name": ".",
-            "target": ".."
+            "name": "Config",
+            "target": "."
         }
     ]
 }

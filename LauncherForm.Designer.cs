@@ -58,12 +58,18 @@
             button20 = new Button();
             button19 = new Button();
             FloppyBird = new Button();
+            menuStrip1 = new MenuStrip();
+            fileToolStripMenuItem = new ToolStripMenuItem();
+            reloadConfigurationToolStripMenuItem = new ToolStripMenuItem();
+            helpToolStripMenuItem = new ToolStripMenuItem();
+            aboutToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // chobocho_com
             // 
             chobocho_com.BackColor = Color.FromArgb(192, 255, 255);
-            chobocho_com.Location = new Point(16, 20);
+            chobocho_com.Location = new Point(16, 29);
             chobocho_com.Name = "chobocho_com";
             chobocho_com.Size = new Size(127, 30);
             chobocho_com.TabIndex = 0;
@@ -73,7 +79,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(16, 60);
+            button1.Location = new Point(16, 69);
             button1.Name = "button1";
             button1.Size = new Size(127, 30);
             button1.TabIndex = 1;
@@ -83,7 +89,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(16, 100);
+            button2.Location = new Point(16, 109);
             button2.Name = "button2";
             button2.Size = new Size(127, 30);
             button2.TabIndex = 2;
@@ -93,7 +99,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(16, 140);
+            button3.Location = new Point(16, 149);
             button3.Name = "button3";
             button3.Size = new Size(127, 30);
             button3.TabIndex = 3;
@@ -103,7 +109,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(16, 180);
+            button4.Location = new Point(16, 189);
             button4.Name = "button4";
             button4.Size = new Size(127, 30);
             button4.TabIndex = 4;
@@ -113,7 +119,7 @@
             // 
             // button5
             // 
-            button5.Location = new Point(16, 220);
+            button5.Location = new Point(16, 229);
             button5.Name = "button5";
             button5.Size = new Size(127, 30);
             button5.TabIndex = 5;
@@ -123,7 +129,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(16, 260);
+            button6.Location = new Point(16, 269);
             button6.Name = "button6";
             button6.Size = new Size(127, 30);
             button6.TabIndex = 6;
@@ -133,7 +139,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(16, 300);
+            button7.Location = new Point(16, 309);
             button7.Name = "button7";
             button7.Size = new Size(127, 30);
             button7.TabIndex = 7;
@@ -143,7 +149,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(16, 340);
+            button8.Location = new Point(16, 349);
             button8.Name = "button8";
             button8.Size = new Size(127, 30);
             button8.TabIndex = 8;
@@ -153,7 +159,7 @@
             // 
             // button9
             // 
-            button9.Location = new Point(16, 380);
+            button9.Location = new Point(16, 389);
             button9.Name = "button9";
             button9.Size = new Size(127, 30);
             button9.TabIndex = 9;
@@ -163,7 +169,7 @@
             // 
             // button18
             // 
-            button18.Location = new Point(158, 380);
+            button18.Location = new Point(158, 389);
             button18.Name = "button18";
             button18.Size = new Size(127, 30);
             button18.TabIndex = 19;
@@ -173,7 +179,7 @@
             // 
             // button17
             // 
-            button17.Location = new Point(158, 340);
+            button17.Location = new Point(158, 349);
             button17.Name = "button17";
             button17.Size = new Size(127, 30);
             button17.TabIndex = 18;
@@ -183,7 +189,7 @@
             // 
             // button16
             // 
-            button16.Location = new Point(158, 300);
+            button16.Location = new Point(158, 309);
             button16.Name = "button16";
             button16.Size = new Size(127, 30);
             button16.TabIndex = 17;
@@ -193,7 +199,7 @@
             // 
             // button15
             // 
-            button15.Location = new Point(158, 260);
+            button15.Location = new Point(158, 269);
             button15.Name = "button15";
             button15.Size = new Size(127, 30);
             button15.TabIndex = 16;
@@ -203,7 +209,7 @@
             // 
             // button14
             // 
-            button14.Location = new Point(158, 220);
+            button14.Location = new Point(158, 229);
             button14.Name = "button14";
             button14.Size = new Size(127, 30);
             button14.TabIndex = 15;
@@ -213,7 +219,7 @@
             // 
             // button13
             // 
-            button13.Location = new Point(158, 180);
+            button13.Location = new Point(158, 189);
             button13.Name = "button13";
             button13.Size = new Size(127, 30);
             button13.TabIndex = 14;
@@ -223,7 +229,7 @@
             // 
             // button12
             // 
-            button12.Location = new Point(158, 140);
+            button12.Location = new Point(158, 149);
             button12.Name = "button12";
             button12.Size = new Size(127, 30);
             button12.TabIndex = 13;
@@ -233,7 +239,7 @@
             // 
             // button11
             // 
-            button11.Location = new Point(158, 100);
+            button11.Location = new Point(158, 109);
             button11.Name = "button11";
             button11.Size = new Size(127, 30);
             button11.TabIndex = 12;
@@ -243,7 +249,7 @@
             // 
             // button10
             // 
-            button10.Location = new Point(158, 60);
+            button10.Location = new Point(158, 69);
             button10.Name = "button10";
             button10.Size = new Size(127, 30);
             button10.TabIndex = 11;
@@ -254,7 +260,7 @@
             // Tetris
             // 
             Tetris.BackColor = Color.FromArgb(128, 255, 255);
-            Tetris.Location = new Point(158, 20);
+            Tetris.Location = new Point(158, 29);
             Tetris.Name = "Tetris";
             Tetris.Size = new Size(127, 30);
             Tetris.TabIndex = 10;
@@ -264,7 +270,7 @@
             // 
             // button27
             // 
-            button27.Location = new Point(302, 380);
+            button27.Location = new Point(302, 389);
             button27.Name = "button27";
             button27.Size = new Size(127, 30);
             button27.TabIndex = 29;
@@ -274,7 +280,7 @@
             // 
             // button26
             // 
-            button26.Location = new Point(302, 340);
+            button26.Location = new Point(302, 349);
             button26.Name = "button26";
             button26.Size = new Size(127, 30);
             button26.TabIndex = 28;
@@ -284,7 +290,7 @@
             // 
             // button25
             // 
-            button25.Location = new Point(302, 300);
+            button25.Location = new Point(302, 309);
             button25.Name = "button25";
             button25.Size = new Size(127, 30);
             button25.TabIndex = 27;
@@ -294,7 +300,7 @@
             // 
             // button24
             // 
-            button24.Location = new Point(302, 260);
+            button24.Location = new Point(302, 269);
             button24.Name = "button24";
             button24.Size = new Size(127, 30);
             button24.TabIndex = 26;
@@ -304,7 +310,7 @@
             // 
             // button23
             // 
-            button23.Location = new Point(302, 220);
+            button23.Location = new Point(302, 229);
             button23.Name = "button23";
             button23.Size = new Size(127, 30);
             button23.TabIndex = 25;
@@ -314,7 +320,7 @@
             // 
             // button22
             // 
-            button22.Location = new Point(302, 180);
+            button22.Location = new Point(302, 189);
             button22.Name = "button22";
             button22.Size = new Size(127, 30);
             button22.TabIndex = 24;
@@ -324,7 +330,7 @@
             // 
             // button21
             // 
-            button21.Location = new Point(302, 140);
+            button21.Location = new Point(302, 149);
             button21.Name = "button21";
             button21.Size = new Size(127, 30);
             button21.TabIndex = 23;
@@ -334,7 +340,7 @@
             // 
             // button20
             // 
-            button20.Location = new Point(302, 100);
+            button20.Location = new Point(302, 109);
             button20.Name = "button20";
             button20.Size = new Size(127, 30);
             button20.TabIndex = 22;
@@ -344,7 +350,7 @@
             // 
             // button19
             // 
-            button19.Location = new Point(302, 60);
+            button19.Location = new Point(302, 69);
             button19.Name = "button19";
             button19.Size = new Size(127, 30);
             button19.TabIndex = 21;
@@ -355,7 +361,7 @@
             // FloppyBird
             // 
             FloppyBird.BackColor = Color.Cyan;
-            FloppyBird.Location = new Point(302, 20);
+            FloppyBird.Location = new Point(302, 29);
             FloppyBird.Name = "FloppyBird";
             FloppyBird.Size = new Size(127, 30);
             FloppyBird.TabIndex = 20;
@@ -363,12 +369,49 @@
             FloppyBird.UseVisualStyleBackColor = false;
             FloppyBird.Click += FloppyBird_Click;
             // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, helpToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(445, 24);
+            menuStrip1.TabIndex = 30;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { reloadConfigurationToolStripMenuItem });
+            fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            fileToolStripMenuItem.Size = new Size(37, 20);
+            fileToolStripMenuItem.Text = "File";
+            // 
+            // reloadConfigurationToolStripMenuItem
+            // 
+            reloadConfigurationToolStripMenuItem.Name = "reloadConfigurationToolStripMenuItem";
+            reloadConfigurationToolStripMenuItem.Size = new Size(188, 22);
+            reloadConfigurationToolStripMenuItem.Text = "Reload Configuration";
+            reloadConfigurationToolStripMenuItem.Click += reloadConfigurationToolStripMenuItem_Click;
+            // 
+            // helpToolStripMenuItem
+            // 
+            helpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aboutToolStripMenuItem });
+            helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            helpToolStripMenuItem.Size = new Size(44, 20);
+            helpToolStripMenuItem.Text = "Help";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            aboutToolStripMenuItem.Size = new Size(180, 22);
+            aboutToolStripMenuItem.Text = "About";
+            aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
+            // 
             // LauncherForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(447, 426);
+            ClientSize = new Size(445, 430);
             Controls.Add(button27);
             Controls.Add(button26);
             Controls.Add(button25);
@@ -399,9 +442,14 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(chobocho_com);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             Name = "LauncherForm";
             Text = "Chobocho's Launcher";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -436,5 +484,10 @@
         private Button button22;
         private Button button21;
         private Button button20;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem fileToolStripMenuItem;
+        private ToolStripMenuItem reloadConfigurationToolStripMenuItem;
+        private ToolStripMenuItem helpToolStripMenuItem;
+        private ToolStripMenuItem aboutToolStripMenuItem;
     }
 }

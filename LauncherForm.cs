@@ -1,6 +1,8 @@
 using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Diagnostics;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace ChoboLauncher
 {
@@ -270,6 +272,19 @@ namespace ChoboLauncher
             if (_buttonInfos[btnName].name == ".") return;
             ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
+
+        private void reloadConfigurationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            const string cfgFileName = "ChoboLauncher_cfg.json";
+            _buttonInfos.Clear();
+            _buttonInfos = ChoboUtil.LoadConfig(cfgFileName);
+            UpdateDefaultButton(_buttonInfos);
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class ChoboUtil
@@ -288,6 +303,38 @@ namespace ChoboLauncher
             {
                 MessageBox.Show(ex.Message, $"Problem during open URL: '{linkUrl}'");
             }
+        }
+        
+        public static Dictionary<string, ButtonInfo> LoadConfig(string cfgFileName)
+        {
+            Dictionary<string, ButtonInfo> buttonInfos = new Dictionary<string, ButtonInfo>();
+            
+            if (File.Exists(cfgFileName))
+            {
+                string config = File.ReadAllText(cfgFileName);
+                try
+                {
+                    JObject jObject = JObject.Parse(config);
+                    foreach (JToken button in jObject["buttons"])
+                    {
+                        ButtonInfo buttonInfo = new ButtonInfo();
+                        buttonInfo.id = button["id"].ToString();
+                        buttonInfo.name = button["name"].ToString();
+                        buttonInfo.target = button["target"].ToString();
+                        buttonInfos[button["id"].ToString()] = buttonInfo;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Chobocho's Launcher!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("There is no config file!", "Chobocho's Launcher!");
+            }
+
+            return buttonInfos;
         }
     }
 }

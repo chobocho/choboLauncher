@@ -133,8 +133,8 @@
         },
         {
             "id": "button27",
-            "name": ".",
-            "target": ".."
+            "name": "Config",
+            "target": "."
         }
     ]
 }
