@@ -283,7 +283,7 @@ namespace ChoboLauncher
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("http://chobocho.com", "Chobocho's Launcher V0.1");
         }
     }
 
