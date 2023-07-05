@@ -350,7 +350,7 @@
             button19.TabIndex = 21;
             button19.Text = "클리앙";
             button19.UseVisualStyleBackColor = true;
-            button19.Click += button19_Click_1;
+            button19.Click += button19_Click;
             // 
             // FloppyBird
             // 

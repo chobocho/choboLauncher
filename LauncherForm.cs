@@ -83,138 +83,192 @@ namespace ChoboLauncher
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button1"].target);
+            string btnName = "button1";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button2"].target);
+            string btnName = "button2";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button3"].target);
+            string btnName = "button3";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button4"].target);
+            string btnName = "button4";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button5"].target);
+            string btnName = "button5";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button6"].target);
+            string btnName = "button6";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button7"].target);
+            string btnName = "button7";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button8"].target);
+            string btnName = "button8";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button9"].target);
+            string btnName = "button9";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button10"].target);
+            string btnName = "button10";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
 
         private void button11_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button11"].target);
+            string btnName = "button11";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button12"].target);
+            string btnName = "button12";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button13"].target);
+            string btnName = "button13";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button14"].target);
+            string btnName = "button14";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button15"].target);
+            string btnName = "button15";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button16"].target);
+            string btnName = "button16";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button17"].target);
+            string btnName = "button17";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button18"].target);
+            string btnName = "button18";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
-        private void button19_Click_1(object sender, EventArgs e)
+        private void button19_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button19"].target);
+            string btnName = "button19";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button20"].target);
+            string btnName = "button20";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button21"].target);
+            string btnName = "button21";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button22"].target);
+            string btnName = "button22";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button23"].target);
+            string btnName = "button23";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button24"].target);
+            string btnName = "button24";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button25"].target);
+            string btnName = "button25";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button26"].target);
+            string btnName = "button26";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            ChoboUtil.openUrl(_buttonInfos["button27"].target);
+            string btnName = "button27";
+            if (_buttonInfos[btnName].name == ".") return;
+            ChoboUtil.openUrl(_buttonInfos[btnName].target);
         }
     }
 
@@ -236,5 +290,4 @@ namespace ChoboLauncher
             }
         }
     }
-
 }

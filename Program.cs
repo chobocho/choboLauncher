@@ -20,11 +20,17 @@ namespace ChoboLauncher
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             const string cfgFileName = "ChoboLauncher_cfg.json";
+            ApplicationConfiguration.Initialize();
+            Application.Run(new LauncherForm(LoadConfig(cfgFileName)));
+        }
+
+        private static Dictionary<string, ButtonInfo> LoadConfig(string cfgFileName)
+        {
             Dictionary<string, ButtonInfo> buttonInfos = new Dictionary<string, ButtonInfo>();
-            string config = "";
+            
             if (File.Exists(cfgFileName))
             {
-                config = File.ReadAllText(cfgFileName);
+                string config = File.ReadAllText(cfgFileName);
                 try
                 {
                     JObject jObject = JObject.Parse(config);
@@ -47,8 +53,7 @@ namespace ChoboLauncher
                 MessageBox.Show("There is no config file!", "Chobocho's Launcher!");
             }
 
-            ApplicationConfiguration.Initialize();
-            Application.Run(new LauncherForm(buttonInfos));
+            return buttonInfos;
         }
     }
 }
