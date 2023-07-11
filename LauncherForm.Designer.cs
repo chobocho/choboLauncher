@@ -63,6 +63,8 @@
             reloadConfigurationToolStripMenuItem = new ToolStripMenuItem();
             helpToolStripMenuItem = new ToolStripMenuItem();
             aboutToolStripMenuItem = new ToolStripMenuItem();
+            editToolStripMenuItem = new ToolStripMenuItem();
+            editConfigurationToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -371,7 +373,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, helpToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, editToolStripMenuItem, helpToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(445, 24);
@@ -405,6 +407,20 @@
             aboutToolStripMenuItem.Size = new Size(180, 22);
             aboutToolStripMenuItem.Text = "About";
             aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
+            // 
+            // editToolStripMenuItem
+            // 
+            editToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { editConfigurationToolStripMenuItem });
+            editToolStripMenuItem.Name = "editToolStripMenuItem";
+            editToolStripMenuItem.Size = new Size(39, 20);
+            editToolStripMenuItem.Text = "Edit";
+            // 
+            // editConfigurationToolStripMenuItem
+            // 
+            editConfigurationToolStripMenuItem.Name = "editConfigurationToolStripMenuItem";
+            editConfigurationToolStripMenuItem.Size = new Size(180, 22);
+            editConfigurationToolStripMenuItem.Text = "Edit configuration";
+            editConfigurationToolStripMenuItem.Click += editConfigurationToolStripMenuItem_Click;
             // 
             // LauncherForm
             // 
@@ -489,5 +505,7 @@
         private ToolStripMenuItem reloadConfigurationToolStripMenuItem;
         private ToolStripMenuItem helpToolStripMenuItem;
         private ToolStripMenuItem aboutToolStripMenuItem;
+        private ToolStripMenuItem editToolStripMenuItem;
+        private ToolStripMenuItem editConfigurationToolStripMenuItem;
     }
 }

@@ -285,6 +285,13 @@ namespace ChoboLauncher
         {
             MessageBox.Show("http://chobocho.com", "Chobocho's Launcher V0.1");
         }
+
+        private void editConfigurationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EditConfigure editConfigure = new EditConfigure(_buttonInfos);
+            editConfigure.ShowDialog();
+            UpdateDefaultButton(_buttonInfos);
+        }
     }
 
     public class ChoboUtil
@@ -304,11 +311,11 @@ namespace ChoboLauncher
                 MessageBox.Show(ex.Message, $"Problem during open URL: '{linkUrl}'");
             }
         }
-        
+
         public static Dictionary<string, ButtonInfo> LoadConfig(string cfgFileName)
         {
             Dictionary<string, ButtonInfo> buttonInfos = new Dictionary<string, ButtonInfo>();
-            
+
             if (File.Exists(cfgFileName))
             {
                 string config = File.ReadAllText(cfgFileName);
